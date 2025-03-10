@@ -8,6 +8,7 @@
 
 import { useSelector } from 'react-redux';
 
+
 const AdminProfile = () => {
     // const [showTab, setShowTab] = useState(false);
     // const buttonText = showTab ? 'Cancel' : 'Edit profile';
@@ -52,7 +53,7 @@ const AdminProfile = () => {
             <br />
             School: {currentUser.schoolName}
             <br />
-            {/* <Button variant="contained" color="error" onClick={deleteHandler}>Delete</Button> */}
+            { <Button variant="contained" color="error" onClick={deleteHandler}>Delete</Button> */}
             {/* <Button variant="contained" sx={styles.showButton}
                 onClick={() => setShowTab(!showTab)}>
                 {showTab ? <KeyboardArrowUp /> : <KeyboardArrowDown />}{buttonText}
